@@ -2,6 +2,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    border: 0;
+    width: 90px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -32,3 +41,35 @@
     color: #e5e7eb;
     list-style: none;
 }
+
+.container .hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container .hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .hero .hero-text .hero-head {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: -5px;
+}
+
+.container .hero .hero-text .hero-para {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.container .hero .image {
+    object-fit: scale-down;
+} 
