@@ -9,6 +9,20 @@ button {
     padding: 6px;
     border: 0;
     width: 90px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7ea0b7a9
+}
+
+img {
+    transition: width 2s;
+}
+
+img:hover {
+    width: 145px;
+    height: 210px;
 }
 
 .container {
@@ -61,6 +75,7 @@ button {
     font-size: 48px;
     color: #F9FAF8;
     margin-bottom: -5px;
+    font-style: oblique;
 }
 
 .container .hero .hero-text .hero-para {
@@ -111,6 +126,13 @@ button {
     width: 138px;
     height: 200px;
     border-radius: 10%;
+    transition: expand 0.5s ease-in;
+    cursor: pointer;
+}
+
+.container .information .info-images .crop img:hover {
+    width: 140px;
+    height: 202px;
 }
 
 .container .quote {
@@ -162,3 +184,15 @@ button {
     margin-top: -16px;
     color: #e5e7eb;
 }
+/* 
+@keyframes expand{
+    0% {
+        width: 138px;
+        height: 200px;
+    }
+
+    100% {
+        width: 142px;
+        height: 204px;
+    }
+} */
